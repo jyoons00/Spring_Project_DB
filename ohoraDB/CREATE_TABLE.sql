@@ -2,6 +2,12 @@
 -- ctrl + A 
 -- ctrl + Enter
 
+--회원번호 시퀀스
+CREATE SEQUENCE SCOTT.O_USER_SEQ
+START WITH 1
+INCREMENT BY 1
+NOCACHE;
+
 /* 회원 */
 CREATE TABLE SCOTT.O_USER (
 	USER_ID NUMBER NOT NULL, /* 회원 ID */

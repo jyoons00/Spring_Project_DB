@@ -33,4 +33,20 @@ ADD CONSTRAINT fk_o_cartlist_to_o_order
 FOREIGN KEY (cart_id)
 REFERENCES o_cartlist(clist_id);
 
+
+-- 리뷰URL 테이블 수정 (포토 영상 구분 없애고 파일로서 관리)
+ALTER TABLE o_revurl DROP COLUMN rurl_photo;
+ALTER TABLE o_revurl DROP COLUMN rurl_record;
+
+ALTER TABLE o_revurl ADD filesystemname VARCHAR2(100);
+COMMENT ON COLUMN o_revurl.filesystemname IS '파일명';
+
+ALTER TABLE o_revurl ADD fileoriginalname VARCHAR2(100);
+COMMENT ON COLUMN o_revurl.filesystemname IS '오리지널파일명';
+
+ALTER TABLE o_revurl ADD filelength NUMBER;
+COMMENT ON COLUMN o_revurl.filesystemname IS '파일용량';
+
+
+
 COMMIT;

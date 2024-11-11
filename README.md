@@ -6,3 +6,6 @@
 4. 준용 sql(더미 데이터 추가를 위해 한번 더 실행)<br>
 5. 업데이트 이미지 sql<br>
 6. 애드 디스크립션 sql<br>
+
+JSP와 Servlet을 활용한 실물 웹사이트 구현<br>
+https://github.com/jyoons00/Ohora_Project_JSP.git<br>

@@ -8,4 +8,4 @@
 6. 애드 디스크립션 sql<br>
 <br>
 JSP와 Servlet을 활용한 실물 웹사이트 구현<br>
-https://github.com/jyoons00/Ohora_Project_JSP.git<br>
+https://github.com/jyoons00/JSP_Project.git<br>

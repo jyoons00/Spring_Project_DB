@@ -7,5 +7,5 @@
 5. 업데이트 이미지 sql<br>
 6. 애드 디스크립션 sql<br>
 <br>
-JSP와 Servlet을 활용한 실물 웹사이트 구현<br>
-https://github.com/jyoons00/JSP_Project.git<br>
+스프링 프레임워크 5.0을 활용한 실물 웹사이트 구현<br>
+https://github.com/jyoons00/Spring_Project.git<br>
